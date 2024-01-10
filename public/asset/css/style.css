@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@300&family=Barlow+Condensed:wght@800&family=Comfortaa&family=Josefin+Sans:wght@300&family=Poppins&family=Quicksand&family=Roboto:wght@300;400&family=Rowdies&family=Work+Sans:ital@0;1&display=swap');
+
+:root {
+  --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink: #d63384;
+  --bs-red: #dc3545;
+  --bs-orange: #fd7e14;
+  --bs-yellow: #ffc107;
+  --bs-green: #198754;
+  --bs-teal: #20c997;
+  --bs-cyan: #0dcaf0;
+  --bs-black: #000;
+  --bs-white: #fff;
+  --bs-gray: #6c757d;
+  --bs-gray-dark: #343a40;
+  --bs-gray-100: #f8f9fa;
+  --bs-gray-200: #e9ecef;
+  --bs-gray-300: #dee2e6;
+  --bs-gray-400: #ced4da;
+  --bs-gray-500: #adb5bd;
+  --bs-gray-600: #6c757d;
+  --bs-gray-700: #495057;
+  --bs-gray-800: #343a40;
+  --bs-gray-900: #212529;
+  --bs-primary: #0d6efd;
+  --bs-secondary: #6c757d;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
+  --bs-primary-rgb: 13, 110, 253;
+  --bs-secondary-rgb: 108, 117, 125;
+  --bs-success-rgb: 25, 135, 84;
+  --bs-info-rgb: 13, 202, 240;
+  --bs-warning-rgb: 255, 193, 7;
+  --bs-danger-rgb: 220, 53, 69;
+  --bs-light-rgb: 248, 249, 250;
+  --bs-dark-rgb: 33, 37, 41;
+  --bs-white-rgb: 255, 255, 255;
+  --bs-black-rgb: 0, 0, 0;
+  --bs-body-color-rgb: 33, 37, 41;
+  --bs-body-bg-rgb: 255, 255, 255;
+  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+  --bs-body-font-family: var(--bs-font-sans-serif);
+  --bs-body-font-size: 1rem;
+  --bs-body-font-weight: 400;
+  --bs-body-line-height: 1.5;
+  --bs-body-color: #212529;
+  --bs-body-bg: #fff;
+  --bs-border-width: 1px;
+  --bs-border-style: solid;
+  --bs-border-color: #dee2e6;
+  --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
+  --bs-border-radius: 0.375rem;
+  --bs-border-radius-sm: 0.25rem;
+  --bs-border-radius-lg: 0.5rem;
+  --bs-border-radius-xl: 1rem;
+  --bs-border-radius-2xl: 2rem;
+  --bs-border-radius-pill: 50rem;
+  --bs-link-color: #20c997;
+  --bs-link-hover-color: #07ab7a;
+  --bs-code-color: #d63384;
+  --bs-highlight-bg: #fff3cd;
+}
+/*start: global*/
+body{
+    font-family: 'Work Sans', sans-serif;
+    background-color: #F8F9FA;
+    box-sizing: border-box;
+}
+.text-indigo:hover,
+.text-indigo{
+    color: var(--bs-indigo);
+}
+/*start: global*/
+.sidebar {
+    width: 25%;
+ 
+}
+.right {
+    width: 75%;
+}
+
+.main-dashboard {
+    display: flex;
+}
+.sidebar-menu {
+    list-style-type: none;
+}
+.sidebar-menu-item a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+    color: var( --bs-gray-800);
+    font-weight: 700;
+    padding: .1rem;
+    border-radius: 10px;
+    font-size: .875rem;
+}
+.d-flex img{
+    width: 40px;
+    height: 40px;
+}
+.d-flex a{
+    font-size: 18px;
+}
+.sidebar-menu-item > a:hover {
+    background-color: var(--bs-gray-200);
+}
+.sidebar-menu-item.active a{
+    background-color:white ;
+    color: var( --bs-gray-800);
+    box-shadow: 0 .25rem .25rem rgba(0, 0, 0, 0.175);
+}
+.sidebar-menu-item-icon {
+    margin: 1rem;
+    font-size: 1.25rem  ;
+    background-color: #3DB278;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+}
+.sidebar-menu-item-icon2 {
+    margin-left: 1.5rem;
+    font-size: 1.25rem;
+    font-weight: 100;
+    padding: 0px 5px
+}
+.fw {
+    font-weight: 100;
+}
+th {
+    text-align: center;
+}
+td{
+    text-align: center;
+}
+.sidebar-menu-item-icon3 {
+    margin: 1rem;
+    margin-left: -63px;
+    font-size: 1.25rem  ;
+    background-color:white ;
+    color: var( --bs-gray-800);
+   
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.sidebar-menu-divider{
+    font-size:1rem;
+    color: var(--bs-gray-600);
+}
+.sidebar-menu-divider a{
+    text-decoration: none;
+    margin-left: 4rem;
+    color: var(--bs-gray-600);
+    padding: .5rem;
+}
+.sidebar-dropdown-menu-item a{
+    padding: .1rem 0;
+    padding-right: .75rem;
+}
+.sidebar-dropdown-menu-item {
+    margin-top: .3rem;
+}
+.sidebar-dropdown-menu-item a:hover {
+    color: (var(--bs-gray-900));
+}
+.sidebar-dropdown-menu {
+    padding-left: .4rem;
+}
+.sidebar-menu-divider.active a{
+    color: var( --bs-gray-800);
+}
+.sidebar-menu-divider a{
+    list-style-type: circle;
+}
+li{
+    list-style-type: none;
+}
+/* end: Sidebar */
+
+/* content right */
+
+.search {
+  display: flex; 
+  align-items: center; 
+  width: 250px; 
+  margin-top: 5px;
+}
+
+.search-icon {
+  margin-right: 10px; 
+}
+.img-thumbnail {
+    height: 200px;
+    width: 200px;
+}
+
+.search-icon i {
+  font-size: 20px; 
+  color: #555; 
+}
+.main-cf {
+    box-shadow: 0 .25rem .25rem rgba(0, 0, 0, 0.175);
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+.pemesanan {
+    text-decoration: none;
+}
+.btnadd {
+    background-color: #20c997;
+    color: white;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.btnadd:hover {
+    background-color: #19a178;
+    color: white;
+    border-radius: 5px;
+}
+button {
+    border: none;
+}
+
+css
+.tabek{
+    margin-right: 100px;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 20px;
+ /* You can adjust the value to control the spacing */
+  }
+  .dropdown-menu-right {
+    padding-left: 10px;
+}
+
+@media (max-width: 575.98px) {
+    .table-responsive-sm {
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    .table-responsive-sm > .table-bordered {
+      border: 0;
+    }
+  }
+  
+  @media (max-width: 767.98px) {
+    .table-responsive-md {
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    .table {
+        width: 100%;
+    }
+    /* Jangan lupa menyembunyikan gambar pada tampilan mobile jika diperlukan */
+    .table img {
+        display: none;
+    }
+
+  }
+  
+  @media (max-width: 991.98px) {
+    .table-responsive-lg {
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    .table-responsive-lg > .table-bordered {
+      border: 0;
+    }
+  }
+  
+  @media (max-width: 1199.98px) {
+    .table-responsive-xl {
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    .table-responsive-xl > .table-bordered {
+      border: 0;
+    }
+  }
+  
+  .table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+
+
+  /* Loader */
+  .loader-wrapper{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #20c997;
+    z-index: 1;
+  }
+  
+  .lds-ellipsis {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    top: 44%;
+    left: 47%;
+  }
+  .lds-ellipsis div {
+    position: absolute;
+    top: 33px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #fff;
+    animation-timing-function: cubic-bezier(0, 1, 1, 0);
+  }
+  .lds-ellipsis div:nth-child(1) {
+    left: 8px;
+    animation: lds-ellipsis1 0.6s infinite;
+  }
+  .lds-ellipsis div:nth-child(2) {
+    left: 8px;
+    animation: lds-ellipsis2 0.6s infinite;
+  }
+  .lds-ellipsis div:nth-child(3) {
+    left: 32px;
+    animation: lds-ellipsis2 0.6s infinite;
+  }
+  .lds-ellipsis div:nth-child(4) {
+    left: 56px;
+    animation: lds-ellipsis3 0.6s infinite;
+  }
+  @keyframes lds-ellipsis1 {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @keyframes lds-ellipsis3 {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0);
+    }
+  }
+  @keyframes lds-ellipsis2 {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(24px, 0);
+    }
+  }
+  
+  
